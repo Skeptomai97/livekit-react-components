@@ -196,6 +196,14 @@ export function ControlBar({
           {showText && 'Leave'}
         </DisconnectButton>
       )}
+      <button
+        className="lk-button lk-button-host"
+        onClick={() => {
+          console.log('Host button clicked');
+        }}
+      >
+        🎭 Host Actions
+      </button>
       <StartMediaButton />
     </div>
   );
